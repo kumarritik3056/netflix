@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="./public/images/favicon.jpeg">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-image: linear-gradient(rgb(24, 7, 7) 50%, white , rgb(19, 8, 8));
+            height: 100vh;
+        }
+        header{
+            background-color: rgb(39, 32, 32);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 50px 20px 50px;
+            
+            box-shadow: 3px 5px 5px blue;
+        }
+        .brand-title{
+            color: red;
+            text-shadow: 2px 2px 3px white;
+            font-family: Arial;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .language{
+            display: flex;
+            flex-direction: row;
+            height: 35px;
+            font-family: Arial;
+        }
+        .btn-lang{
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 0.5px solid white;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .btn-sign{
+            background-color: red;
+            text-align: center;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            margin-left: 20px;
+        }
+        section{
+            background-image: url(./public/images/netflix-baner.jpg);
+            background-attachment: scroll;
+            background-size: cover;
+            margin: 20px 50px 20px 50px;
+            height: 500px;
+            border-radius: 20px;
+        }
+        .bg-shade{
+            background-color:rgba(0, 0, 0, 0.8);
+            height: 500px;
+            border-radius: 20px;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 100px;
+            color: white;
+            font-family: Arial;
+        }
+        .movie-title{
+            font-size: 60px;
+            font-weight: bold;
+            padding-bottom:30px ;
+        }
+        .price-start{
+            font-size: 20px;
+            padding-bottom: 35px;
+        }
+        .form{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+        .email{
+            width: 300px;
+            background-color: rgba(105, 102, 102, 0.301);
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 15px;
+        }
+        .btn-start{
+            width: 200px;
+            background-color: rgba(255, 0, 0, 0.815);
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-title">NETFLIX</span>
+        </div>
+        <div class="language">
+            <div class="btn-lang">
+                <span class="bi bi-translate"></span>
+                <span>English</span>
+                <span class="bi bi-caret-down-fill"></span>
+            </div>
+            <div class="btn-sign">
+                <span>Sign in</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="bg-shade">
+            <main>
+                <div class="movie-title">Unlimited movies,<br> TV shows and more</div>
+                <div class="price-start">Starts at ₹149. Cancel at any time.</div>
+                <div class="advise">Ready to watch? Enter your email to create or restart your membership.</div>
+                <div class="form">
+                    <div class="email">
+                        <span>Email address</span>
+                    </div>
+                    <div class="btn-start">
+                        <span>Get Start</span>
+                        <span class="bi bi-chevron-right"></span>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+</body>
+</html>
