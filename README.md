@@ -12,7 +12,7 @@ A simple Netflix-style web app built with React and TMDB API. Browse and stream 
 
 ![image](https://github.com/user-attachments/assets/9a08ec3b-4a4d-4c7d-896f-77109ddee108)
 
-## 📸 Demo- in test.html
+## 📸 Demo-2- in test.html
 
 ![image](https://github.com/user-attachments/assets/7f39d30a-4273-4b60-82f8-48f494b8395c)
 
